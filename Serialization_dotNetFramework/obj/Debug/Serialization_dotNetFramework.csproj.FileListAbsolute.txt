@@ -1,0 +1,8 @@
+c:\users\dym0\desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\bin\Debug\Serialization_dotNetFramework.exe.config
+c:\users\dym0\desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\bin\Debug\Serialization_dotNetFramework.exe
+c:\users\dym0\desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\bin\Debug\Serialization_dotNetFramework.pdb
+c:\users\dym0\desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\obj\Debug\Serialization_dotNetFramework.exe
+c:\users\dym0\desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\obj\Debug\Serialization_dotNetFramework.pdb
+c:\users\dym0\desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\bin\Debug\nunit.framework.dll
+c:\users\dym0\desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\bin\Debug\nunit.framework.xml
+c:\Users\dym0\Desktop\Projects\Serialization_dotNetFramework\Serialization_dotNetFramework\obj\Debug\Serialization_dotNetFramework.csprojResolveAssemblyReference.cache
