@@ -33,7 +33,7 @@ namespace Serialization_dotNetFramework
 
                 tester.Subtract(5000);
 
-                Assert.AreEqual(5000, 5000);
+                Assert.AreEqual(tester.Wallet , 5000);
 
             }
         }
@@ -90,6 +90,14 @@ namespace Serialization_dotNetFramework
                 Serialization serilize = new Serialization(path);
 
                 serilize.Serialize(guys);
+
+                guys[0].AddMoney(2000);
+
+                List<Guy> guysAfter = serilize.DeserializeAll();
+
+                Assert.AreEqual(2000 ,guysAfter[0].Wallet );
+                Assert.AreEqual(3000, guysAfter[1].Wallet);
+                Assert.AreEqual(3400, guysAfter[2].Wallet);
             }
 
             [Test]
@@ -117,6 +125,8 @@ namespace Serialization_dotNetFramework
                 listGuys = deserialize.DeserializeAll();
 
                 Assert.AreEqual(1000, listGuys[0].Wallet);
+
+                File.Delete(path);
             }
 
             [Test]
